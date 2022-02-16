@@ -1,0 +1,23 @@
+body html{
+    background-color: #F5F5F5;
+    
+}
+.form-user input{
+    background-color: #F5F5F5;
+}
+.forgetpsw-border-container{
+    border-top-right-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+    
+}
+
+@media (min-width: 992px){
+    .forgetpsw-border-container{
+     max-width: 25vw;
+    
+    }
+    .back-signin{
+        display: block;
+        max-width: 25vw;
+    }
+}
