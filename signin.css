@@ -1,0 +1,130 @@
+body html{
+    background-color: #F5F5F5;
+    
+}
+.sign-border-container{
+    background-color: white;
+    border-radius:0.4rem ;
+}
+
+
+.rowcol-container{
+    margin: 3rem !important;
+}
+.form-control{
+    border-radius: 0;
+}
+#uname{
+    background-color: #F5F5F5 ;
+    border: none;
+    border-radius: 0.4rem;
+    
+}
+#pwd{
+    background-color: #F5F5F5 ;
+    border: none;
+    border-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    align-items: baseline;
+    
+}
+.show-psd{
+   background-color:#F5F5F5 ;
+   border: none;
+   border-top-right-radius: 0.4rem;
+   border-bottom-right-radius: 0.4rem;
+   display: flex;
+   align-items: center;
+   margin-left: -1.8rem;
+   padding-bottom: 0.3rem;
+
+}
+
+.sign-container.form-email{
+    margin-bottom:0;
+}
+
+.remember-me input{
+    margin-top: 0.5rem;
+    background-color:#F5F5F5 !important;
+}
+
+
+.horizontal-line{
+    color:rgba(87, 84, 84, 0.61) ;
+    position: relative;
+    
+}
+.horizontal-line::before{
+    content: "";
+    background-color: rgba(87, 84, 84, 0.61);
+    height: 1px;
+    width: 10rem;
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 17.3rem;
+  
+}
+.horizontal-line::after{
+    content: "";
+    background-color: rgba(87, 84, 84, 0.61);
+    height: 1px;
+    width: 10rem;
+    display: block;
+    right: 0;
+    position: absolute;
+    top: 17.3rem;
+  
+}
+
+
+.google-sign a{
+    background-image:url('/public/google.png');
+    background-repeat: no-repeat;
+    display: block;
+     display: flex;
+     justify-content: space-around;
+     text-decoration: none;
+     background-position-y:50% ;
+     background-position-x:5% ;
+      padding: 8px;
+    
+ 
+ }
+ .linkedin-sign a{
+    background-image:url('/public/linkedin.png');
+    background-repeat: no-repeat;
+    background-position-y:50%;
+    background-position-x:5% ;
+    display: block;
+     display: flex;
+     justify-content:space-around ;
+     text-decoration: none;
+     padding: 8px; 
+    
+    
+    
+ 
+ }
+ .new-user{
+     position: absolute;
+     right: 47%;
+ }
+
+ .linkedin-sign {
+     margin-bottom: 9rem;
+ }
+
+  @media (min-width: 992px){
+    .sign-border-container{
+     max-width: 30vw;
+    
+    }
+} 
+
+@media(max-width:576px){
+    .rowcol-container{
+        margin: 0rem !important;
+    }
+} 
